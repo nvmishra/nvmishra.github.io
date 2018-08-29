@@ -1,0 +1,204 @@
+*
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cfd8dc;
+}
+hr
+{
+    display: block;
+    width: 60%;
+    margin-top: 40px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* Static Top Menu */
+.navContainer
+{
+    width: 100%;
+    height: auto;
+    background-color: #1B5E20;
+}
+/* Removes any style from Unordered List */
+.navContainer ul
+{
+    list-style-type: none;   
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1B5E20;
+}
+/* Sets Links to the left and width of 25% */
+.navContainer ul li
+{
+    float: left;
+    background-color: #1B5E20;
+}
+/* Displays each hyperlink as a block and centers its content */
+.navContainer ul li a
+{
+    display: block;
+    color: #E8EAF6;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    text-decoration: none;
+    background-color: #1B5E20;
+}
+/* Changes background color of hyperlink */
+.navContainer ul li a:hover
+{
+    background: #000;
+}
+
+.mainContainer
+{
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 5%;
+    margin-bottom: 40px;
+}
+.mainContainer hr
+{
+    width: 100%;
+}
+
+#title
+{
+    text-align: left;
+    width: 500px;
+}
+#title h2
+{
+    font-size: 50px;
+}
+
+.mainContainer2
+{
+    margin-top: 20px;
+    display: flex;
+}
+
+.box1
+{
+    flex: .6;
+    height: auto;
+}
+.box1 hr
+{
+    width: 100%;
+}
+#circle 
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #F57F17;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 19px;
+}
+#educationCell h2
+{
+    margin-left: 20px;
+    font-size: 30px;
+}
+#educationCell h3
+{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#educationCell h4
+{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+#educationCell h5
+{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+#educationCell h6
+{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+#workCell h2 
+{
+    margin-left: 20px;
+    font-size: 30px;
+    
+}
+#workCell h3
+{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#workCell ul li
+{
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+#courseCell h2
+{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+#courseCell ul li
+{
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.box2   
+{
+    flex: .4;
+    height: auto;
+}
+.box2 h2
+{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.box2 hr
+{
+    margin-top: -.1px;
+    margin-left: 60px;
+    width: 60%;
+}
+.box2 ul
+{
+    margin-top: 10px;
+    list-style: none;
+}
+.box2 ul li 
+{
+    margin-left: 60px;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+.copyRightFoot p
+{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+

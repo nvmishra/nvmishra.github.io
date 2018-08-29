@@ -1,0 +1,130 @@
+*
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cfd8dc;
+}
+hr
+{
+    display: block;
+    margin-top: 40px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.clr
+{
+    clear: both;
+}
+
+/* Static Top Menu */
+.navContainer
+{
+    width: 100%;
+    height: auto;
+    background-color: #1B5E20;
+}
+/* Removes any style from Unordered List */
+.navContainer ul
+{
+    list-style-type: none;   
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1B5E20;
+}
+/* Sets Links to the left and width of 25% */
+.navContainer ul li
+{
+    float: left;
+    background-color: #1B5E20;
+}
+/* Displays each hyperlink as a block and centers its content */
+.navContainer ul li a
+{
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+    text-decoration: none;
+    background-color: #1B5E20;
+}
+/* Changes background color of hyperlink */
+.navContainer ul li a:hover
+{
+    background: #000;
+}
+
+.mainContainer
+{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+
+#greeting
+{
+    text-align: center;
+    border-radius: 25px;
+}
+#greeting h2
+{
+    font-size: 50px;
+    border-radius: 25px;
+    background-color: #F57F17;
+    color: white;
+}
+
+#aboutBox
+{
+    margin-top: 20px;
+    border-radius: 25px;
+    overflow: auto;
+    padding-bottom: 10px;
+    background: #006064;
+    color: white;
+}
+#aboutBox table
+{
+    border-radius: 25px;
+    background: #006064;
+}
+#aboutBox table tr
+{
+    
+    background: #006064;
+}
+#aboutBox table tr td
+{
+    
+    background: #006064;
+}
+#aboutBox table tr td img
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    background: #006064;
+}
+#aboutBox table tr td p
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    
+    background: #006064;
+}
+
+.copyRightFoot p
+{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
